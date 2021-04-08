@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>09_ex2</title>
+    <style>
+        .root {
+            display: flex;
+        }
+
+        img {
+
+            width: 350px;
+            height: 350px;
+        }
+
+        .pic {
+            position: relative;
+        }
+
+        .content {
+
+            width: 400px;
+        }
+
+        .onthepic {
+            background-color: rgba(255, 255, 255, 0);
+            font-size: 14pt;
+            color: blue;
+            font-style: italic;
+        }
+
+        h2 {
+            background-color: yellow;
+        }
+
+        p {
+            background-color: gray;
+        }
+
+        .back {
+            background-color: orange;
+
+        }
+
+        .next {
+            background-color: orange;
+        }
+
+        .lemonword {
+            position: absolute;
+            top: 250px;
+            left: 100px;
+        }
+
+        .button {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="root">
+        <div class="pic">
+            <img src="lemon.jpg">
+            <div class="lemonword">
+                <p class="onthepic">
+                    Don't put off till<br>tomorrow what you can<br> do today.
+                </p>
+            </div>
+        </div>
+        <div class="content">
+            <h2>鹽檸檬食譜</h2>
+            <p>只靠鹽檸檬的調味, 就可以變化出一道道清爽健康的新風味料理。
+                這邊介紹的搭配以西洋料理為主, 不論是以沙拉為主的蔬食料理,
+                或是醋醃&香煎的海鮮、肉類、義大利麵、各式麵食、麵包、飯食、湯品甚至甜點,
+                都能做搭配。</p>
+            <hr>
+            <div class="button">
+                <p class="back">上一頁</p>
+                <p class="next">下一頁</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
